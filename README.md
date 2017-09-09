@@ -1,4 +1,4 @@
-# Madeleine-Data-Science
+# Madeleinology
 
-A little study of Madeleines (the traditional French sweet sponge cake) in the world of big-data.
+Looking at 150 different recipes of Madeleines (the traditional French sweet sponge cake).
 
