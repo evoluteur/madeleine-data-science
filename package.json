@@ -1,0 +1,23 @@
+{
+  "name": "madeleinology",
+  "version": "1.0.0",
+  "description": "A study of Madeleines",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evoluteur/madeleinology.git"
+  },
+  "copyright": "(c) 2019 Olivier Giulieri",
+  "homepage": "https://github.com/evoluteur/madeleinology",
+  "author": "Olivier Giulieri (https://evoluteur.github.io/)",
+  "license": "MIT",
+  "keywords": [
+    "madeleine",
+    "cake",
+    "recipe",
+    "ingredient",
+    "data",
+    "science",
+    "baking",
+    "cupcake"
+  ]
+}
