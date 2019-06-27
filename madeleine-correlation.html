@@ -13,7 +13,14 @@
 </head>
 
 <body>
-
+<script type="text/javascript">
+var ned = '0'
+function neige(){
+    var ne = document.getElementById("neigepix")
+    ned = ned === '0' ? '438px' : '0'
+    ne.style.height = ned
+}
+</script>
     <ul class="pnav">
         <li class="idx"><a href="index.html"><img class="logo"class="logo" src="m-icon.png"><span class="mq-no-sl">Madeleinology</span></a></li> 
         <li><a href="madeleines-data-science.html">Data</a></li> 
@@ -29,7 +36,7 @@
 
 <section>
 
-<h2>Madeleine search correlation</h2>
+<h1>Madeleine search correlation</h1>
 
 <div>
     <p>The Google search most correlated (r=0.96) to "<strong>madeleine cake</strong>" is "<strong>my cat loves me</strong>".  
@@ -37,6 +44,14 @@
     <img src="pix/google-trends/madeleine-correlation.gif"><br/> 
 
     <p>My quest is over. <strong>A cat's love must be the secret ingredient of Madeleines</strong>!</p>
+
+    <p>It makes total sense, <a href="javascript:neige()">Neige already helped me make jam last year</a>.
+    </p>
+
+    <div >
+            <img id="neigepix" src="pix/neige-jam.jpg">
+    </div>
+
 
     <p>Explore at <a href="https://www.google.com/trends/correlate/search?e=Madeleine+cake&t=monthly&p=us" target="_blank">Google Correlate</a> but remember that <a href="https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation">correlation does not imply causation</a>.</p>
 <div>

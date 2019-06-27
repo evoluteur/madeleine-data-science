@@ -36,6 +36,11 @@ a:hover{
 }
 h1{
   margin-bottom: 50px;
+  font-size: 1.8em;
+}
+h2{
+  font-size: 1.2em;
+
 }
 
 .m-sides,
@@ -376,8 +381,22 @@ div:hover > .xtra{
   background-color: #337ab7;
 }
 
+#neigepix{
+  height: 0;
+  margin: 5px 0;
+  background: #ccc;
+  -webkit-transition: all .3s linear 0s;
+  transition: all .3s linear 0s;
+}
 
+#neigepanel.on {
+  height: 438px;
+}
 
+#neigepix,
+#neigepix > img{
+  width: 694px;
+}
 
 .clearer{
   height: 1px;

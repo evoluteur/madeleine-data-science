@@ -49,5 +49,6 @@ function sort(n){
 	render();
 }
 
-render();
-
+document.addEventListener("DOMContentLoaded", function(event) { 
+  render();
+});
